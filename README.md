@@ -33,10 +33,8 @@ Major steps involved were as follow :
 
 ## Screenshots
 
-![Example screenshot](./images/Image1.png)
-![Example screenshot](./images/Image2.png)
-![Example screenshot](./images/Image3.png)
-![Example screenshot](./images/Image4.png)
+![Example screenshot](./images/image1.png)
+![Example screenshot](./images/image2.png)
 
 ## Methods and Tools
 * Artificial Intelligence
@@ -48,7 +46,7 @@ Major steps involved were as follow :
 
 
 ## Status
-Project is: _In-progress_.
+Project is: _finished_.
 
 ## Contact
 If you loved what you read here and feel like we can collaborate to produce some exciting stuff, or if you

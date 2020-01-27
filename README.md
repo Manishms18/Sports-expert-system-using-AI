@@ -1,5 +1,5 @@
 # Sports-Expert-system-using-AI
-Building sports expert system, a rule-based approach, using AI CLIPS language(invented by NASA) to recommend sports by answering questions 
+Building sports expert system, a rule-based engine approach, using AI CLIPS language(invented by NASA) to recommend sports by answering questions 
 
 ## Table of contents
 
@@ -33,8 +33,8 @@ Major steps involved were as follow :
 
 ## Screenshots
 
-![Example screenshot](./images/image1.png)
-![Example screenshot](./images/image2.png)
+![Example screenshot](./Image/image1.png)
+![Example screenshot](./Image/image2.png)
 
 ## Methods and Tools
 * Artificial Intelligence
@@ -43,7 +43,27 @@ Major steps involved were as follow :
 
 ## Code Examples
 
+;;;***************
+;;;* QUERY RULES *
+;;;***************
 
+(defrule running ""
+   (not (run ?))
+   (not (sports ?))
+   =>
+   (assert (run-ans (answers "Do you like running? (yes/no)? "))))
+   
+(defrule contact ""
+   (run-ans yes)
+   (not (sports ?))
+   =>
+   (assert (contact-ans (answers "Do you prefer contact sports (yes/no)? "))))
+
+(defrule alone ""
+   (run-ans no)
+   (not (sports ?))   
+   =>
+   (assert (alone-ans (answers "Do you like to play sport alone (yes/no)? "))))
 
 ## Status
 Project is: _finished_.

@@ -10,10 +10,9 @@ Building sports expert system using AI CLIPS language(invented by NASA) to recom
 * [Code Examples](#code-examples)
 * [Status](#status)
 * [Contact](#contact)
-* [Reference](#reference)
 
 ## General info
-A rule-based engine approach to recommend sports
+A rule-based engine approach to recommend sports.
 
 ## Demo
 ![Example screenshot](./images/Demo.gif)

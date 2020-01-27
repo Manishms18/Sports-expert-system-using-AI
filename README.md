@@ -38,12 +38,12 @@ A rule-based engine approach to recommend sports
 (defrule running ""
    (not (run ?))
    (not (sports ?))
-   =>
+   =>                                                                                                                                   
    (assert (run-ans (answers "Do you like running? (yes/no)? "))))
    
 (defrule contact ""
    (run-ans yes)
-   (not (sports ?))
+   (not (sports ?))                                                                                                                     
    =>
    (assert (contact-ans (answers "Do you prefer contact sports (yes/no)? "))))
 

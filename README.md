@@ -17,6 +17,7 @@ A rule-based engine approach to recommend sports.
 ## Demo
 ![Example screenshot](./Image/Demo.gif)
 
+
 **The entire demo of the project can be found on [YouTube](https://www.youtube.com/watch?v=u2ph9dFykVw).**
 
 ## Screenshots
